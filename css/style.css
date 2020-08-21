@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    height: 100vh;
+    /* width: 100%; */
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+.header_logo{
+    font-size: 40px;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    float: left;
+    cursor: pointer;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px 0;
+    outline: none!important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    transition: 0.4s;
+}
+.login-btn:hover{
+    border: 2px solid #00ff7e;
+}
+.header h1{
+    font-family: 'Pacifico', cursive;
+
+    padding-top: 250px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+    margin-top: 50px;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+    max-width: 79%;
+}
+.input-group-text{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff;
+    padding: 9px 25px;
+    border-radius: 30px;
+    box-shadow: none !important;
+}
+
+.features{
+    padding: 100px 0;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.feature-img{
+    position: relative;
+    width: 100%;
+    /* height: 250px; */
+}
+.feature-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 16px 0;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left: 20px;
+    bottom: -20px;
+}
+.rating{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    position: absolute;
+    bottom: -1px;
+    right: 0;
+}
+.features .fa{
+    color: #ff5722;
+    font-size: 15px;
+}
+.features-details{
+    padding: 20px;
+    text-align: justify;
+}
+.features-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.features-details p{
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Baloo Tamma 2', cursive;
+    cursor: text;
+}
+.features-details .fa{
+    margin-right: 15px;
+}
+
+.gallery{
+    padding: 100px;
+    background: #f1f1f1;
+}
+
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: cover;
+    transition: 0.4s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-shadow: -2px 2px 2px #000;
+    transform: translateX(-50%);
+}
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.banner{
+    height: 80vh;
+    background-image: url(../img/bg2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 10%;
+}
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none!important;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;
+    margin-top: 30px;
+    transition: 0.4s;
+}
+.booking-btn:hover{
+    border: 2px solid #00ff7e;
+}
+.user-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 50px 10px 10px 10px;
+}
+.user-review p::before{
+    content: '\201d';
+    display: block;
+    position: absolute;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    left: 45%;
+    top: -20px;
+}
+.user-feedback img{
+    width: 60px;height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.5);
+}
+.footer_logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+}
+.footer_logo i.fa-ravelry{
+    font-size: 38px !important;
+    padding-right: 0 !important;
+
+}
+
+.footer{
+    padding: 50px 20px 20px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: white;
+}
+.footer h2{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+    cursor: pointer;
+}
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+.footer hr{
+    margin-top: 10px;
+    border-top: 1px solid #fff;
+}
+.fa-heart{
+    margin: 0 5px;
+    color: #f44336;
+}
+.footer .copyright{
+    text-align: center;
+}
